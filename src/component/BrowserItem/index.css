@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.time-accessed {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: bold;
+  color: #475569;
+  margin-right: 20px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.domain-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+  margin-left: 20px;
+}
+.domain {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #64748b;
+  margin-left: 10px;
+}
+.button {
+  height: 20px;
+  width: 20px;
+  border: none;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-img {
+  height: 25px;
+  width: 25px;
+  color: #475569;
+}
+.list-item {
+  list-style-type: none;
+}
+.empty-history {
+  font-family: 'Roboto';
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
